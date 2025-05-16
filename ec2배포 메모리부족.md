@@ -14,7 +14,7 @@ aws 프리티어를 사용하면 어쩔 수 없는 문제라고 하고 Spring �
  ```$ sudo swapon /swapMem```<br>
  ```$ sudo swapon -s```<br>
 
-4. SWAP 메모리 자동 활성화<br>
+4. SWAP 메모리 자동 활성화(추가되어있음 서버 껐다켜도)<br>
 ```$ sudo vi /etc/fstab ```<br>
 ```# 마지막 행에 추가하기```<br>
 ```/swapfile swap swap defaults 0 0```<br>
